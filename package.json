@@ -1,0 +1,16 @@
+{
+  "name": "prueba-2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+	   "cy:dashboad":"cypress run --record --key 4f4ff287-4c3f-4f4c-adca-a487cdef1d02"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^8.0.0"
+  },
+  "dependencies": {},
+  "description": ""
+}
