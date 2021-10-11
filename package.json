@@ -4,12 +4,14 @@
   "main": "index.js",
   "scripts": {
     "cy:open": "cypress open",
-	   "cy:dashboad":"cypress run --record --key 4f4ff287-4c3f-4f4c-adca-a487cdef1d02"
+    "cy:dashboad": "cypress run --record --key 4f4ff287-4c3f-4f4c-adca-a487cdef1d02",
+    "prueba": "cypress run --spec cypress/integration/Test/first_test.js --browser chrome"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^8.0.0"
+    "cypress": "^8.5.0",
+    "electron-test": "^1.0.0"
   },
   "dependencies": {},
   "description": ""
