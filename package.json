@@ -5,14 +5,22 @@
   "scripts": {
     "cy:open": "cypress open",
     "cy:dashboad": "cypress run --record --key 4f4ff287-4c3f-4f4c-adca-a487cdef1d02",
-    "prueba": "cypress run --spec cypress/integration/Test/first_test.js --browser chrome"
+    "cy:run": "cypress run",
+    "one": "cypress run --spec cypress/integration/Test/first_test.js --browser chrome"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^8.5.0",
+    "cypress": "^8.6.0",
+    "cypress-multi-reporters": "^1.5.0",
     "electron-test": "^1.0.0",
-    "junit-report-merger": "^3.0.2"
+    "esl": "^10.0.0",
+    "junit-report-merger": "^3.0.2",
+    "mocha": "^9.1.2",
+    "mocha-junit-reporter": "^2.0.2",
+    "mochawesome": "^6.3.1",
+    "mochawesome-merge": "^4.2.0",
+    "mochawesome-report-generator": "^5.2.0"
   },
   "dependencies": {},
   "description": ""
