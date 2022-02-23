@@ -1,5 +1,5 @@
 {
-  "name": "prueba-2",
+    "name": "cypress-junit-azure-devops",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
